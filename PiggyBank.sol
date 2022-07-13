@@ -24,6 +24,10 @@ contract PiggyBank {
         selfdestruct(payable(msg.sender));
 
     }
+
+    function getPiggyBalance() external view returns(uint){
+        return address(this).balance;
+    }
 //deposit to the piggy bank by sending tokens to the smart contract address
     receive() external payable {
         emit deposit(msg.value);

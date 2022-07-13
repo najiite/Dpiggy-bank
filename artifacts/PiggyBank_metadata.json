@@ -45,6 +45,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getPiggyBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -96,11 +109,11 @@
 	},
 	"sources": {
 		"Solidity-projects/Dpiggy-bank/PiggyBank.sol": {
-			"keccak256": "0xa295663350ef0ea273ae193606ceb3ce8eb80167013a534e7fd215c0e567d18d",
+			"keccak256": "0x781dac2ce1484b9a86eae27e2b40dcbd40a4d2d3fb693a056b83954c3d2b9263",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3e510ac0d5ba057884217430a4e63475dc491ebce184e1b33600bef3aab1c3c3",
-				"dweb:/ipfs/QmUcgfGoYBEKmFu7v9pTYCGrvfaaMapKvRHLRwmyMvTe3k"
+				"bzz-raw://bdcf3ecf681a869e38d657265758a00ba248bd50ab54f4c0df109b002c1bf18d",
+				"dweb:/ipfs/QmabyXqhuVjnkC78XCQdxL84bN2xwSPakCuWcowuuCdcbe"
 			]
 		}
 	},
