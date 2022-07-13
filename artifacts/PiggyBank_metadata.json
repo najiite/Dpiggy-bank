@@ -48,12 +48,19 @@
 				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "",
 						"type": "address"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawPiggy",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -89,11 +96,11 @@
 	},
 	"sources": {
 		"Solidity-projects/Dpiggy-bank/PiggyBank.sol": {
-			"keccak256": "0xce7db18feec58dc682401ff2eac6edb5d68517607f2c5b086c983bd249288ae6",
+			"keccak256": "0xa295663350ef0ea273ae193606ceb3ce8eb80167013a534e7fd215c0e567d18d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://02cfe1ccf5b34087d6fbac97416d691414eda60c72379ff1b1a1e4a71c706473",
-				"dweb:/ipfs/QmbeD8LmjJgix4LLXK7S8ZG4D37uP3QRJCo87e7bNDZXNc"
+				"bzz-raw://3e510ac0d5ba057884217430a4e63475dc491ebce184e1b33600bef3aab1c3c3",
+				"dweb:/ipfs/QmUcgfGoYBEKmFu7v9pTYCGrvfaaMapKvRHLRwmyMvTe3k"
 			]
 		}
 	},
